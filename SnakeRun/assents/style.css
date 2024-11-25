@@ -1,0 +1,137 @@
+@charset "UTF-08";
+
+/* 
+*
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+body,
+body{
+    background-image: url(lf.png);
+    background-size: cover;
+}
+main {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 1.9em;
+    color: #ffffff;
+
+}
+
+canvas {
+    background-color: #5c1aa8;
+    align-items: center;
+    border: 5px solid #000000;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ff0000;
+
+
+}
+
+.score--value {
+    background-color: #84cc26;
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #f5efea;
+}
+
+
+/* Adiciona uma imagem de fundo ao contêiner do jogo */
+#game-container {
+    width: 600px;
+    height: 400px;
+    background-image: url("");
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    border: 2px solid #ffffff;
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+ footer{
+    color: white;
+    background-color: rgb(255, 255, 255);
+ }
+
+
+
+.final-score {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f5efea;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #000000a1;
+    color: #000000;
+    min-width: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+/*
+*
+*/
